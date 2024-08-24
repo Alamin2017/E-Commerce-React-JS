@@ -12,6 +12,7 @@ function App() {
     <div>
       <BrowserRouter>
       <Navbar/>
+
       <Routes>
 
         <Route path='/' element={<Shop/>}/>
@@ -23,7 +24,9 @@ function App() {
         </Route>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/login' element={<LoginSignup/>}/>
+        
       </Routes>
+
       </BrowserRouter>
     </div>
   );
